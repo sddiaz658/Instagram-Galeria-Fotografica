@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.izquierda{
+    background: url(../img/izquierda1.png);
+    height: 100vh;
+    width: 50%;
+}
+
+
+.izquierda .contenedor{
+    display: flex;
+    width: 350px;
+    height: 45px;
+    color: #fff;
+    font-size: 40px;
+    line-height: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.izquierda .contenedor ul{
+    list-style: none;
+    padding-left: 10px;
+    animation: cambiar 7s infinite;
+}
+
+.izquierda .contenedor ul, li{
+    color: #000;
+}
+
+.izquierda .contenedor ul, p{
+    margin: 0;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+@keyframes cambiar {
+    0%{margin-top: 0;}
+    20%{margin-top: 0;}
+
+    25%{margin-top: -40px;}
+    50%{margin-top: -40px;}
+
+    55%{margin-top: -80px;}
+    80%{margin-top: -80px;}
+
+    85%{margin-top: -40px;}
+    95%{margin-top: -40px;}
+
+    100%{margin-top: 0;}
+
+
+}
+
+.derecha{
+    background: url(../img/derecha1.png);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100vh;
+}
+
+.derecha h2{
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+#pantalladividida{
+    display: flex;
+}
+
+.derecha form{
+    padding: 60px;
+    text-align: center;
+    
+    
+}
+
+.derecha p{
+    text-align: center;
+    color: #fff;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 10px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.493);
+}
+
+.derecha form input{
+    width: 70%;
+    padding: 11px 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+    border: 2px solid #BFD2D6;
+
+
+}
+
+.derecha img{
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+    border: 2px solid #9A02E0;
+    border-radius: 6px;
+    background: #6B0AF7;
+}
+
+.derecha a{
+    color: #F2DD1B;
+    text-decoration: none;
+}
+
+
+.derecha form button{
+    background:  #7300EB;
+    color: #fff;
+    margin-top: 10px;
+    padding: 5px 15px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-left: 15px;
+    border: 2px solid #F6B522;
+    transition: .5s;
+
+}
+
+.derecha form button:hover{
+    transform: scale(0.9)
+}
